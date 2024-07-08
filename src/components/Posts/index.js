@@ -22,7 +22,7 @@ class Posts extends Component{
     }
 
     getData= async()=>{
-        const response=await fetch('https://mylo-backend.onrender.com/')
+        const response=await fetch('http://localhost:4000/')
         if(response.ok){
             const jsonData=await response.json()
             this.setState({postsArray:jsonData})
