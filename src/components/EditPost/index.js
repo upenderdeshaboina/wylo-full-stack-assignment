@@ -27,7 +27,7 @@ class EditPost extends Component{
             },
             body:JSON.stringify(obj)
         }
-        const response=await fetch(`http://localhost:4000/edit-post/${id}`,options)
+        const response=await fetch(`https://mylo-backend.onrender.com/edit-post/${id}`,options)
         if(response.ok){
             alert('post updated')
             const {history}=this.props

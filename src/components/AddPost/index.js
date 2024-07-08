@@ -25,7 +25,7 @@ class AddPost extends Component{
             },
             body:JSON.stringify(obj)
         }
-        const response=await fetch('http://localhost:4000/add-post',options)
+        const response=await fetch('https://mylo-backend.onrender.com/add-post',options)
         if(response.ok){
             alert('post added')
             const {history}=this.props
