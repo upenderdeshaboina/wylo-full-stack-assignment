@@ -1,0 +1,42 @@
+.text-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.like-btn{
+    width: 80px;
+    cursor: pointer;
+    outline: none;
+    border: 0px solid;
+    background-color: transparent;
+}
+.post-by{
+    font-family: roboto;
+    font-weight: 700;
+}
+.description{
+    font-family: roboto;
+    font-weight: 700;
+}
+.edit-btn{
+    width: 80px;
+    cursor: pointer;
+    outline: none;
+    border: 0px solid;
+    background-color: transparent;
+}
+li{
+    list-style-type: none;
+    width: 40%;
+    margin-right: 10px;
+    box-shadow: 5px 5px 6px 5px rgba(188, 197, 201, 0.2);
+    margin: 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+.post-image{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

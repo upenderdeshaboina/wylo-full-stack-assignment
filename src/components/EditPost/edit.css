@@ -1,0 +1,85 @@
+.edit-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(240, 243, 244), rgb(210, 219, 228), rgb(235, 241, 244));
+    height: 90vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(227, 240, 239);
+    width: 70%;
+    border: 2px solid blue;
+    height: 85%;
+    border-radius: 5px;
+    align-items: center;
+}
+.edit-heading{
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+label{
+    font-family: roboto;
+    margin-bottom: 7px;
+    margin-left: 45px;
+}
+.name{
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    border: 1px solid rgb(23, 6, 39);
+    border-radius: 3px;
+    align-self: center;
+}
+.image{
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: white;
+    align-self: center;
+}
+select{
+    width: 85%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+    align-self: center;
+}
+textarea{
+    align-self: center;
+    width: 85%;
+    height: 100px;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000;
+}
+.editing-btn{
+    width: 100px;
+    background-color: rgb(127, 127, 242);
+    cursor: pointer;
+    outline: none;
+    border: 0px solid ;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    font-family: roboto;
+}
+.editing-btn:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-family: roboto;
+}
